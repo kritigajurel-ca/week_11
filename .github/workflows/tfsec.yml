@@ -12,7 +12,7 @@ on:
       - staging
       - dev
   pull_request:
-    branches: [ "staging" ]
+    branches: [ "dev" ]
   schedule:
     - cron: '29 9 * * 5'
 
